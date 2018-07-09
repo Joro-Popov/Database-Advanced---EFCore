@@ -1,0 +1,14 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\bin\Debug\netcoreapp2.0\P07_EmployeesProjects.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\bin\Debug\netcoreapp2.0\P07_EmployeesProjects.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\bin\Debug\netcoreapp2.0\P07_EmployeesProjects.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\bin\Debug\netcoreapp2.0\P07_EmployeesProjects.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\bin\Debug\netcoreapp2.0\P07_EmployeesProjects.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\obj\Debug\netcoreapp2.0\P07_EmployeesProjects.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\obj\Debug\netcoreapp2.0\P07_EmployeesProjects.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\obj\Debug\netcoreapp2.0\P07_EmployeesProjects.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\obj\Debug\netcoreapp2.0\P07_EmployeesProjects.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\obj\Debug\netcoreapp2.0\P07_EmployeesProjects.csproj.CopyComplete
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\obj\Debug\netcoreapp2.0\P07_EmployeesProjects.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P07_EmployeesProjects\obj\Debug\netcoreapp2.0\P07_EmployeesProjects.pdb

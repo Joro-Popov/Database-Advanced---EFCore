@@ -1,0 +1,14 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\bin\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\bin\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\bin\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\bin\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\bin\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\obj\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\obj\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\obj\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\obj\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\obj\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.csproj.CopyComplete
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\obj\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P06_AddingAndUpdatingEmpl\obj\Debug\netcoreapp2.0\P06_AddingAndUpdatingEmpl.pdb

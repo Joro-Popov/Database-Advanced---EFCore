@@ -1,0 +1,11 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\obj\Debug\netcoreapp2.0\P02_DatabaseFirst.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\obj\Debug\netcoreapp2.0\P02_DatabaseFirst.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\obj\Debug\netcoreapp2.0\P02_DatabaseFirst.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\obj\Debug\netcoreapp2.0\P02_DatabaseFirst.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\obj\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P02_DatabaseFirst\obj\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb

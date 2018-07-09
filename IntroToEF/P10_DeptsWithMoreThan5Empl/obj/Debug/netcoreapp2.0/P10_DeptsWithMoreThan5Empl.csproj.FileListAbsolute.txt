@@ -1,0 +1,14 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\bin\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\bin\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\bin\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\bin\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\bin\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\obj\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\obj\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\obj\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\obj\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\obj\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.csproj.CopyComplete
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\obj\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P10_DeptsWithMoreThan5Empl\obj\Debug\netcoreapp2.0\P10_DeptsWithMoreThan5Empl.pdb

@@ -1,0 +1,14 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\bin\Debug\netcoreapp2.0\P03_EmployeesFullInformation.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\bin\Debug\netcoreapp2.0\P03_EmployeesFullInformation.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\bin\Debug\netcoreapp2.0\P03_EmployeesFullInformation.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\bin\Debug\netcoreapp2.0\P03_EmployeesFullInformation.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\bin\Debug\netcoreapp2.0\P03_EmployeesFullInformation.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\obj\Debug\netcoreapp2.0\P03_EmployeesFullInformation.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\obj\Debug\netcoreapp2.0\P03_EmployeesFullInformation.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\obj\Debug\netcoreapp2.0\P03_EmployeesFullInformation.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\obj\Debug\netcoreapp2.0\P03_EmployeesFullInformation.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\obj\Debug\netcoreapp2.0\P03_EmployeesFullInformation.csproj.CopyComplete
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\obj\Debug\netcoreapp2.0\P03_EmployeesFullInformation.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P03_EmployeesFullInformation\obj\Debug\netcoreapp2.0\P03_EmployeesFullInformation.pdb

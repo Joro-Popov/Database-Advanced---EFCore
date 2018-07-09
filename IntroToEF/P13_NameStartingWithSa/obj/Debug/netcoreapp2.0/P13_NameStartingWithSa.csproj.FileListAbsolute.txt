@@ -1,0 +1,14 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\bin\Debug\netcoreapp2.0\P13_NameStartingWithSa.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\bin\Debug\netcoreapp2.0\P13_NameStartingWithSa.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\bin\Debug\netcoreapp2.0\P13_NameStartingWithSa.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\bin\Debug\netcoreapp2.0\P13_NameStartingWithSa.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\bin\Debug\netcoreapp2.0\P13_NameStartingWithSa.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\obj\Debug\netcoreapp2.0\P13_NameStartingWithSa.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\obj\Debug\netcoreapp2.0\P13_NameStartingWithSa.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\obj\Debug\netcoreapp2.0\P13_NameStartingWithSa.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\obj\Debug\netcoreapp2.0\P13_NameStartingWithSa.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\obj\Debug\netcoreapp2.0\P13_NameStartingWithSa.csproj.CopyComplete
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\obj\Debug\netcoreapp2.0\P13_NameStartingWithSa.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P13_NameStartingWithSa\obj\Debug\netcoreapp2.0\P13_NameStartingWithSa.pdb

@@ -1,0 +1,14 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\bin\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\bin\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\bin\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\bin\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\bin\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\obj\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\obj\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\obj\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\obj\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\obj\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.csproj.CopyComplete
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\obj\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P05_EmpFromResearchAndDev\obj\Debug\netcoreapp2.0\P05_EmpFromResearchAndDev.pdb

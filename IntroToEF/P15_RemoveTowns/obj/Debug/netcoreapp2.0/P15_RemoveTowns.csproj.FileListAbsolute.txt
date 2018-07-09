@@ -1,0 +1,14 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\bin\Debug\netcoreapp2.0\P15_RemoveTowns.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\bin\Debug\netcoreapp2.0\P15_RemoveTowns.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\bin\Debug\netcoreapp2.0\P15_RemoveTowns.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\bin\Debug\netcoreapp2.0\P15_RemoveTowns.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\bin\Debug\netcoreapp2.0\P15_RemoveTowns.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\obj\Debug\netcoreapp2.0\P15_RemoveTowns.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\obj\Debug\netcoreapp2.0\P15_RemoveTowns.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\obj\Debug\netcoreapp2.0\P15_RemoveTowns.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\obj\Debug\netcoreapp2.0\P15_RemoveTowns.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\obj\Debug\netcoreapp2.0\P15_RemoveTowns.csproj.CopyComplete
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\obj\Debug\netcoreapp2.0\P15_RemoveTowns.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P15_RemoveTowns\obj\Debug\netcoreapp2.0\P15_RemoveTowns.pdb

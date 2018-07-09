@@ -1,0 +1,14 @@
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\bin\Debug\netcoreapp2.0\P11_Latest10Projects.deps.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\bin\Debug\netcoreapp2.0\P11_Latest10Projects.runtimeconfig.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\bin\Debug\netcoreapp2.0\P11_Latest10Projects.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\bin\Debug\netcoreapp2.0\P11_Latest10Projects.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\bin\Debug\netcoreapp2.0\P11_Latest10Projects.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\bin\Debug\netcoreapp2.0\P02_DatabaseFirst.pdb
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\obj\Debug\netcoreapp2.0\P11_Latest10Projects.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\obj\Debug\netcoreapp2.0\P11_Latest10Projects.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\obj\Debug\netcoreapp2.0\P11_Latest10Projects.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\obj\Debug\netcoreapp2.0\P11_Latest10Projects.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\obj\Debug\netcoreapp2.0\P11_Latest10Projects.csproj.CopyComplete
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\obj\Debug\netcoreapp2.0\P11_Latest10Projects.dll
+C:\Users\JORO\Desktop\Professional Modules\C# DB Fundamentals\C# DB Advanced - Entity Framework\Solutions\IntroToEF\P11_Latest10Projects\obj\Debug\netcoreapp2.0\P11_Latest10Projects.pdb

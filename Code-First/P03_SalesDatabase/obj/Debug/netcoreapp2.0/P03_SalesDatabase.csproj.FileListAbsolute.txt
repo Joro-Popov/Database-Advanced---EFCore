@@ -1,0 +1,16 @@
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.deps.json
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.runtimeconfig.json
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.runtimeconfig.dev.json
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.dll
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.pdb
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csprojAssemblyReference.cache
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csproj.CoreCompileInputs.cache
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.AssemblyInfoInputs.cache
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.AssemblyInfo.cs
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.dll
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.pdb
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.dll
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.Models.dll
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.pdb
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.Models.pdb
+C:\Users\JORO\Desktop\Code-First\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csproj.CopyComplete
