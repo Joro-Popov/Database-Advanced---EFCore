@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <name>Georgi Popov</name>
+    <gender>Male</gender>
+    <birthDate>1993-04-04T00:00:00</birthDate>
+    <phoneNumber>08878771113</phoneNumber>
+    <email>popov937@abv.bg</email>
+    <university>SoftUni</university>
+    <speciality>.NET Web Developer</speciality>
+    <facultyNumber>00001222</facultyNumber>
+    <exams>
+      <exam>
+        <name>Database Basics</name>
+        <dateTaken>2018-05-24T00:00:00</dateTaken>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <name>C# OOP Advanced</name>
+        <dateTaken>2018-04-22T00:00:00</dateTaken>
+        <grade>6.00</grade>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Ivan Ivanov</name>
+    <gender>Male</gender>
+    <birthDate>1999-04-04T00:00:00</birthDate>
+    <phoneNumber>0887281216</phoneNumber>
+    <email>popov937@abv.bg</email>
+    <university>SoftUni</university>
+    <speciality>Java Web Developer</speciality>
+    <facultyNumber>00001222</facultyNumber>
+    <exams>
+      <exam>
+        <name>Database Basics</name>
+        <dateTaken>2018-05-24T00:00:00</dateTaken>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <name>Programming Basics</name>
+        <dateTaken>2018-07-22T00:00:00</dateTaken>
+        <grade>6.00</grade>
+      </exam>
+    </exams>
+  </student>
+</students>
