@@ -185,7 +185,9 @@
                 TeamId = team.Id,
                 UserId = loggedInUser.Id
             };
+
             this.context.UserTeams.Add(userTeam);
+            this.context.SaveChanges();
         }
 
         private void InviteUserToTeam(User invitationReceiver, Team team)
@@ -195,7 +197,9 @@
                 InvitedUserId = invitationReceiver.Id,
                 TeamId = team.Id
             };
+
             this.context.Invitations.Add(Invitation);
+            this.context.SaveChanges();
         }
     }
 }
