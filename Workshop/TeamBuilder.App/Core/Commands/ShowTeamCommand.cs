@@ -7,6 +7,8 @@
 
     public class ShowTeamCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 1;
+
         private readonly IUserService userService;
 
         public ShowTeamCommand(IUserService userService)
@@ -16,16 +18,18 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(1, args);
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
 
             var teamName = args[0];
 
-            if (!CommandHelper.IsTeamExisting(teamName))
+            if (!DatabaseChecker.IsTeamExisting(teamName))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.TeamNotFound, teamName));
+                throw new ArgumentException(string.Format(ErrorMessages.TEAM_NOT_FOUND, teamName));
             }
 
-            return this.userService.ShowTeam(teamName);
+            var message = this.userService.ShowTeam(teamName);
+
+            return message;
         }
     }
 }

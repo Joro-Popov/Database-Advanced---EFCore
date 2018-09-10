@@ -6,16 +6,20 @@
 
     public class LogoutCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 0;
+
         public string Execute(string[] args)
         {
-            Check.CheckLenght(0, args);
-            Check.CheckUserIsLoggedOut();
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
+            Checker.CheckUserIsLoggedOut();
 
-            var username = AuthenticationService.GetCurrentUser().Username;
+            var loggedInUsername = AuthenticationService.GetCurrentUser().Username;
 
             AuthenticationService.Logout();
 
-            return string.Format(InfoMessages.SuccessfullLogout, username);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULL_LOGOUT, loggedInUsername);
+
+            return message;
         }
     }
 }

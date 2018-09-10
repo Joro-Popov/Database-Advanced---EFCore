@@ -30,8 +30,10 @@
                 {
                     Console.Write("Enter Command: ");
                     var command = Console.ReadLine();
-                    var result = this.commandParser.ParseCommand(command);
-                    Console.WriteLine(result);
+
+                    var commandExecutionMessage = this.commandParser.ParseCommand(command);
+
+                    Console.WriteLine(commandExecutionMessage);
 
                     if (command == TERMINATING_COMMAND)
                     {

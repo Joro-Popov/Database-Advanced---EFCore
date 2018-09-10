@@ -8,6 +8,8 @@
 
     public class DeclineInviteCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 1;
+
         private readonly IUserService userService;
 
         public DeclineInviteCommand(IUserService userService)
@@ -17,25 +19,27 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(1, args);
-            Check.CheckUserIsLoggedOut();
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
+            Checker.CheckUserIsLoggedOut();
 
             var teamName = args[0];
-            var user = AuthenticationService.GetCurrentUser();
+            var loggedInUser = AuthenticationService.GetCurrentUser();
 
-            if (!CommandHelper.IsTeamExisting(teamName))
+            if (!DatabaseChecker.IsTeamExisting(teamName))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.TeamNotFound, teamName));
+                throw new ArgumentException(string.Format(ErrorMessages.TEAM_NOT_FOUND, teamName));
             }
 
-            if (!CommandHelper.IsInviteExisting(teamName, user))
+            if (!DatabaseChecker.IsInviteExisting(teamName, loggedInUser))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.InviteNotFound, teamName));
+                throw new ArgumentException(string.Format(ErrorMessages.INVITE_NOT_FOUND, teamName));
             }
 
             this.userService.DeclineInvite(teamName);
 
-            return string.Format(InfoMessages.SuccessfullyDeclinedInvite, teamName);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULLY_DECLINED_INVITE, teamName);
+
+            return message;
         }
     }
 }

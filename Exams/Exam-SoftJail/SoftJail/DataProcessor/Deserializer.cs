@@ -1,6 +1,6 @@
 ﻿namespace SoftJail.DataProcessor
 {
-
+    using AutoMapper;
     using Data;
     using Newtonsoft.Json;
     using SoftJail.Data.Models;
@@ -8,7 +8,7 @@
     using SoftJail.DataProcessor.ImportDto;
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
+    using DATANOTATION = System.ComponentModel.DataAnnotations;
     using System.Globalization;
     using System.IO;
     using System.Linq;
@@ -52,7 +52,7 @@
                         HasWindow = c.HasWindow
                     }).ToList(),
                 };
-
+                
                 if (!IsValid(current) || !isvalidCell)
                 {
                     sb.AppendLine("Invalid Data");
@@ -188,10 +188,10 @@
 
         private static bool IsValid(object obj)
         {
-            var validationContext = new ValidationContext(obj);
-            var validationResults = new List<ValidationResult>();
+            var validationContext = new DATANOTATION.ValidationContext(obj);
+            var validationResults = new List<DATANOTATION.ValidationResult>();
 
-            return Validator.TryValidateObject(obj, validationContext, validationResults, true);
+            return DATANOTATION.Validator.TryValidateObject(obj, validationContext, validationResults, true);
         }
     }
 }

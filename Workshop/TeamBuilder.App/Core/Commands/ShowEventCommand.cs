@@ -7,6 +7,8 @@
 
     public class ShowEventCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 1;
+
         private readonly IUserService userService;
 
         public ShowEventCommand(IUserService userService)
@@ -16,16 +18,18 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(1, args);
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
 
             var eventName = args[0];
 
-            if (!CommandHelper.IsEventExisting(eventName))
+            if (!DatabaseChecker.IsEventExisting(eventName))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.EventNotFound, eventName));
+                throw new ArgumentException(string.Format(ErrorMessages.EVENT_NOT_FOUND, eventName));
             }
 
-            return this.userService.ShowEvent(eventName);
+            var message = this.userService.ShowEvent(eventName);
+
+            return message;
         }
     }
 }

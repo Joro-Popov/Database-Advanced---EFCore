@@ -6,6 +6,8 @@
 
     public class CreateEventCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 6;
+
         private readonly IUserService userService;
 
         public CreateEventCommand(IUserService userService)
@@ -15,19 +17,26 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(6, args);
-            Check.CheckUserIsLoggedOut();
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
+            Checker.CheckUserIsLoggedOut();
 
             var eventName = args[0];
             var description = args[1];
-            var startDate = Check.CheckDateIsValid(args[2] + " " + args[3]);
-            var endDate = Check.CheckDateIsValid(args[4] + " " + args[5]);
+            var inputStartDate = args[2];
+            var inputStartTime = args[3];
+            var inputEndDate = args[4];
+            var inputEndTime = args[5];
 
-            Check.CheckStartDate(startDate, endDate);
+            var startDate = Checker.CheckDateIsValid($"{inputStartDate} {inputStartTime}");
+            var endDate = Checker.CheckDateIsValid($"{inputEndDate} {inputEndTime}");
+
+            Checker.CheckStartDateIsBeforeEndDate(startDate, endDate);
 
             this.userService.CreateEvent(eventName, description, startDate, endDate);
 
-            return string.Format(InfoMessages.SuccessfullyCreatedEvent, eventName);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULLY_CREATED_EVENT, eventName);
+
+            return message;
         }
     }
 }

@@ -11,6 +11,8 @@
 
     public class KickMemberCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 2;
+
         private readonly IUserService userService;
 
         public KickMemberCommand(IUserService userService)
@@ -20,53 +22,55 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(2, args);
-            Check.CheckUserIsLoggedOut();
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
+            Checker.CheckUserIsLoggedOut();
 
             var loggedInUser = AuthenticationService.GetCurrentUser();
             var teamName = args[0];
-            var username = args[1];
+            var usernameToKick = args[1];
 
-            if (!CommandHelper.IsTeamExisting(teamName))
+            if (!DatabaseChecker.IsTeamExisting(teamName))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.TeamNotFound, teamName));
+                throw new ArgumentException(string.Format(ErrorMessages.TEAM_NOT_FOUND, teamName));
             }
 
-            if (!CommandHelper.IsUserExisting(username))
+            if (!DatabaseChecker.IsUserExisting(usernameToKick))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.UserNotFound, username));
+                throw new ArgumentException(string.Format(ErrorMessages.USER_NOT_FOUND, usernameToKick));
             }
 
-            if (!CommandHelper.IsMemberOfTeam(teamName, loggedInUser.Username))
+            if (!DatabaseChecker.IsMemberOfTeam(teamName, loggedInUser.Username))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.NotPartOfTeam, loggedInUser.Username, teamName));
+                throw new ArgumentException(string.Format(ErrorMessages.NOT_PART_OF_TEAM, loggedInUser.Username, teamName));
             }
 
-            if (!CommandHelper.IsMemberOfTeam(teamName, username))
+            if (!DatabaseChecker.IsMemberOfTeam(teamName, usernameToKick))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.NotPartOfTeam, username, teamName));
+                throw new ArgumentException(string.Format(ErrorMessages.NOT_PART_OF_TEAM, usernameToKick, teamName));
             }
 
-            if (!CommandHelper.IsUserCreatorOfTeam(teamName, loggedInUser))
+            if (!DatabaseChecker.IsUserCreatorOfTeam(teamName, loggedInUser))
             {
-                throw new InvalidOperationException(ErrorMessages.NotAllowed);
+                throw new InvalidOperationException(ErrorMessages.OPERATION_NOT_ALLOWED);
             }
 
             User userToKick = null;
 
             using (var context = new TeamBuilderDbContext())
             {
-                userToKick = context.Users.FirstOrDefault(u => u.Username == username);
+                userToKick = context.Users.FirstOrDefault(u => u.Username == usernameToKick);
             }
 
-            if (CommandHelper.IsUserCreatorOfTeam(teamName, userToKick))
+            if (DatabaseChecker.IsUserCreatorOfTeam(teamName, userToKick))
             {
-                throw new InvalidOperationException(string.Format(ErrorMessages.CommandNotAllowed, "DisbandTeam"));
+                throw new InvalidOperationException(string.Format(ErrorMessages.COMMAND_NOT_ALLOWED, "DisbandTeam"));
             }
 
-            this.userService.KickMember(teamName, username);
+            this.userService.KickMember(teamName, usernameToKick);
 
-            return string.Format(InfoMessages.SuccessfullKickedUser, username, teamName);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULLY_KICKED_USER, usernameToKick, teamName);
+
+            return message;
         }
     }
 }

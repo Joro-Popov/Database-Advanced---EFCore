@@ -4974,11 +4974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JORO\\Desktop\\01. Model Definition_Skeleton and Datasets\\SoftJail\\SoftJail.csproj",
+      "projectUniqueName": "C:\\Users\\JORO\\Desktop\\Database-Advanced---EFCore\\Exams\\Exam-SoftJail\\SoftJail\\SoftJail.csproj",
       "projectName": "SoftJail",
-      "projectPath": "C:\\Users\\JORO\\Desktop\\01. Model Definition_Skeleton and Datasets\\SoftJail\\SoftJail.csproj",
+      "projectPath": "C:\\Users\\JORO\\Desktop\\Database-Advanced---EFCore\\Exams\\Exam-SoftJail\\SoftJail\\SoftJail.csproj",
       "packagesPath": "C:\\Users\\JORO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JORO\\Desktop\\01. Model Definition_Skeleton and Datasets\\SoftJail\\obj\\",
+      "outputPath": "C:\\Users\\JORO\\Desktop\\Database-Advanced---EFCore\\Exams\\Exam-SoftJail\\SoftJail\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

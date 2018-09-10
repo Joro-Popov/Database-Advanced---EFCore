@@ -17,13 +17,13 @@ namespace TeamBuilder.App.Core
             this.serviceProvider = serviceProvider;
         }
 
-        public string ParseCommand(string input)
+        public string ParseCommand(string commandDetails)
         {
-            var inputArgs = input.Split(' ', '\t', StringSplitOptions.RemoveEmptyEntries);
+            var details = commandDetails.Split(' ', '\t', StringSplitOptions.RemoveEmptyEntries);
 
-            var inputCommand = inputArgs[0] + SUFFIX;
+            var inputCommand = details[0] + SUFFIX;
 
-            var args = inputArgs.Skip(1).ToArray();
+            var arguments = details.Skip(1).ToArray();
 
             var commandType = Assembly.GetCallingAssembly()
                                .GetTypes()
@@ -31,7 +31,7 @@ namespace TeamBuilder.App.Core
 
             if (commandType == null)
             {
-                throw new NotSupportedException(string.Format(ErrorMessages.InvalidCommand, inputArgs[0]));
+                throw new NotSupportedException(string.Format(ErrorMessages.INVALID_COMMAND, details[0]));
             }
 
             var constructor = commandType.GetConstructors().First();
@@ -40,14 +40,13 @@ namespace TeamBuilder.App.Core
                                         .Select(x => x.ParameterType)
                                         .ToArray();
 
-            var service = constructorParameters.Select(serviceProvider.GetService)
-                                               .ToArray();
+            var services = constructorParameters.Select(serviceProvider.GetService).ToArray();
 
-            var command = (ICommand)constructor.Invoke(service);
+            var specificCommand = (ICommand)constructor.Invoke(services);
 
-            var result = command.Execute(args);
+            var commandExecutionMessage = specificCommand.Execute(arguments);
 
-            return result;
+            return commandExecutionMessage;
         }
     }
 }

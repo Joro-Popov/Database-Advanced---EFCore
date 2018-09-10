@@ -11,6 +11,8 @@
 
     public class InviteToTeamCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 2;
+
         private readonly IUserService userService;
 
         public InviteToTeamCommand(IUserService userService)
@@ -20,46 +22,46 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(2, args);
-            Check.CheckUserIsLoggedOut();
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
+            Checker.CheckUserIsLoggedOut();
 
             var teamName = args[0];
             var username = args[1];
 
-            User receiver = null;
+            User inviteReciever = null;
+            var loggedInUser = AuthenticationService.GetCurrentUser();
 
             using (var context = new TeamBuilderDbContext())
             {
-                receiver = context.Users.FirstOrDefault(u => u.Username == username);
+                inviteReciever = context.Users.FirstOrDefault(u => u.Username == username);
             }
 
-            //Check for user and team existance
-            if (!CommandHelper.IsUserExisting(username) || !CommandHelper.IsTeamExisting(teamName))
+            if (!DatabaseChecker.IsUserExisting(username) || !DatabaseChecker.IsTeamExisting(teamName))
             {
-                throw new ArgumentException(ErrorMessages.TeamOrUserNotExist);
+                throw new ArgumentException(ErrorMessages.TEAM_OR_USER_NOT_EXIST);
             }
 
-            //Check if invitation can be complete
-            var isCreator = CommandHelper.IsUserCreatorOfTeam(teamName, AuthenticationService.GetCurrentUser());
-            var isCreatorMemeber = CommandHelper.IsMemberOfTeam(teamName, AuthenticationService.GetCurrentUser().Username);
-            var isInviteduserMemeber = CommandHelper.IsMemberOfTeam(teamName, username);
-            var isInvited = CommandHelper.IsMemberOfTeam(teamName, username);
-            var isDeleted = CommandHelper.IsUserDeleted(username);
+            var isUserCreator = DatabaseChecker.IsUserCreatorOfTeam(teamName, loggedInUser);
+            var isCreatorPartOfTheTeam = DatabaseChecker.IsMemberOfTeam(teamName, loggedInUser.Username);
+            var isInvitedUserPartOfTheTeam = DatabaseChecker.IsMemberOfTeam(teamName, username);
+            var isUserInvited = DatabaseChecker.IsMemberOfTeam(teamName, username);
+            var isUserDeleted = DatabaseChecker.IsUserDeleted(username);
 
-            if (!isCreator || !isCreatorMemeber || isInvited || isDeleted || isInviteduserMemeber)
+            if (!isUserCreator || !isCreatorPartOfTheTeam || isUserInvited || isUserDeleted || isInvitedUserPartOfTheTeam)
             {
-                throw new InvalidOperationException(ErrorMessages.NotAllowed);
+                throw new InvalidOperationException(ErrorMessages.OPERATION_NOT_ALLOWED);
             }
 
-            //Check if invitation exists
-            if (CommandHelper.IsInviteExisting(teamName, receiver))
+            if (DatabaseChecker.IsInviteExisting(teamName, inviteReciever))
             {
-                throw new InvalidOperationException(ErrorMessages.InviteIsAlreadySent);
+                throw new InvalidOperationException(ErrorMessages.INVITE_IS_ALREADY_SENT);
             }
 
-            this.userService.SentInvitation(teamName, receiver);
+            this.userService.SendInvitation(teamName, inviteReciever);
 
-            return string.Format(InfoMessages.SuccessfullyInvited, teamName, username);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULLY_MADE_INVITATION, teamName, username);
+
+            return message;
         }
     }
 }

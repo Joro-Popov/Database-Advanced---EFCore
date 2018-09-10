@@ -14,7 +14,7 @@
 
         void CreateTeam(string name, string acronym, string description);
 
-        void SentInvitation(string teamName, User receiver);
+        void SendInvitation(string teamName, User receiver);
 
         void AcceptInvitation(string teamName);
 

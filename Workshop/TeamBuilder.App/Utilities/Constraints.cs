@@ -2,14 +2,14 @@
 {
     public static class Constraints
     {
-        public const int MinUsernameLength = 3;
-        public const int MaxUsernameLength = 25;
+        public const int USERNAME_MIN_LENGTH = 3;
+        public const int USERNAME_MAX_LENGTH = 25;
 
-        public const int MaxFirstNameLength = 25;
+        public const int FIRST_NAME_MAX_LENGTH = 25;
 
-        public const int MaxLastNameLength = 25;
+        public const int LAST_NAME_MAX_LENGTH = 25;
 
-        public const int MinPasswordLength = 6;
-        public const int MaxPasswordLength = 30;
+        public const int PASSWORD_MIN_LENGTH = 6;
+        public const int PASSWORD_MAX_LENGTH = 30;
     }
 }

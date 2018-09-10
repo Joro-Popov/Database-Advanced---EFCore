@@ -7,32 +7,32 @@
 
     public class LoginCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 2;
+
         public string Execute(string[] args)
         {
-            Check.CheckLenght(2, args);
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
 
             var username = args[0];
             var password = args[1];
 
-            //Check username and password
-            if (!CommandHelper.IsUserExisting(username))
+            if (!DatabaseChecker.IsUserExisting(username) || !DatabaseChecker.ArePasswordsEqual(username, password))
             {
-                throw new ArgumentException(ErrorMessages.UserOrPasswordIsInvalid);
-            }
-            else if (!CommandHelper.ArePasswordsEqual(username, password))
-            {
-                throw new ArgumentException(ErrorMessages.UserOrPasswordIsInvalid);
-            }
-            else if (CommandHelper.IsUserDeleted(username))
-            {
-                throw new ArgumentException(ErrorMessages.UserOrPasswordIsInvalid);
+                throw new ArgumentException(ErrorMessages.INVALID_USERNAME_OR_PASSWORD);
             }
 
-            Check.CheckUserIsLoggedIn();
+            if (DatabaseChecker.IsUserDeleted(username))
+            {
+                throw new ArgumentException(ErrorMessages.INVALID_USERNAME_OR_PASSWORD);
+            }
+
+            Checker.CheckUserIsLoggedIn();
 
             AuthenticationService.Login(username, password);
 
-            return string.Format(InfoMessages.SuccessfullLogin, username);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULL_LOGIN, username);
+
+            return message;
         }
     }
 }

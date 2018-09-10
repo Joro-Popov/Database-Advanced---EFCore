@@ -8,6 +8,8 @@
 
     public class AddTeamToCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 2;
+
         private readonly IUserService userService;
 
         public AddTeamToCommand(IUserService userService)
@@ -17,36 +19,38 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(2, args);
-            Check.CheckUserIsLoggedOut();
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
+            Checker.CheckUserIsLoggedOut();
 
             var eventName = args[0];
             var teamName = args[1];
-            var user = AuthenticationService.GetCurrentUser();
+            var loggedInUser = AuthenticationService.GetCurrentUser();
 
-            if (!CommandHelper.IsEventExisting(eventName))
+            if (!DatabaseChecker.IsEventExisting(eventName))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.EventNotFound, eventName));
+                throw new ArgumentException(string.Format(ErrorMessages.EVENT_NOT_FOUND, eventName));
             }
 
-            if (!CommandHelper.IsTeamExisting(teamName))
+            if (!DatabaseChecker.IsTeamExisting(teamName))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.TeamNotFound, teamName));
+                throw new ArgumentException(string.Format(ErrorMessages.TEAM_NOT_FOUND, teamName));
             }
 
-            if (!CommandHelper.IsUserCreatorOfTeam(teamName, user))
+            if (!DatabaseChecker.IsUserCreatorOfTeam(teamName, loggedInUser))
             {
-                throw new InvalidOperationException(ErrorMessages.NotAllowed);
+                throw new InvalidOperationException(ErrorMessages.OPERATION_NOT_ALLOWED);
             }
 
-            if (CommandHelper.IsTeamPartOfEvent(eventName, teamName))
+            if (DatabaseChecker.IsTeamPartOfEvent(eventName, teamName))
             {
-                throw new InvalidOperationException(ErrorMessages.CannotAddSameTeamTwice);
+                throw new InvalidOperationException(ErrorMessages.CANNOT_ADD_SAME_TEAM_TWICE);
             }
 
             this.userService.AddTeamToEvent(eventName, teamName);
 
-            return string.Format(InfoMessages.SuccessfullyAddedTeamToEvent, teamName, eventName);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULLY_ADDED_TEAM_TO_EVENT, teamName, eventName);
+
+            return message;
         }
     }
 }

@@ -8,6 +8,8 @@
 
     public class DisbandCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 1;
+
         private readonly IUserService userService;
 
         public DisbandCommand(IUserService userService)
@@ -17,25 +19,27 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(1, args);
-            Check.CheckUserIsLoggedOut();
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
+            Checker.CheckUserIsLoggedOut();
 
             var teamName = args[0];
             var loggedInUser = AuthenticationService.GetCurrentUser();
 
-            if (!CommandHelper.IsTeamExisting(teamName))
+            if (!DatabaseChecker.IsTeamExisting(teamName))
             {
-                throw new ArgumentException(string.Format(ErrorMessages.TeamNotFound, teamName));
+                throw new ArgumentException(string.Format(ErrorMessages.TEAM_NOT_FOUND, teamName));
             }
 
-            if (!CommandHelper.IsUserCreatorOfTeam(teamName, loggedInUser))
+            if (!DatabaseChecker.IsUserCreatorOfTeam(teamName, loggedInUser))
             {
-                throw new InvalidOperationException(ErrorMessages.NotAllowed);
+                throw new InvalidOperationException(ErrorMessages.OPERATION_NOT_ALLOWED);
             }
 
             this.userService.Disband(teamName);
 
-            return string.Format(InfoMessages.SuccessfullDisband, teamName);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULL_DISBAND, teamName);
+
+            return message;
         }
     }
 }

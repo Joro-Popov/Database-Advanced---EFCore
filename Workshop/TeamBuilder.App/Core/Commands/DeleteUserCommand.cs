@@ -7,6 +7,8 @@
 
     public class DeleteUserCommand : ICommand
     {
+        private const int EXPRECTED_ARGUMENTS_LENGTH = 0;
+
         private readonly IUserService userService;
 
         public DeleteUserCommand(IUserService userService)
@@ -16,16 +18,18 @@
 
         public string Execute(string[] args)
         {
-            Check.CheckLenght(0, args);
-            Check.CheckUserIsLoggedOut();
+            Checker.CheckArgumentsLength(EXPRECTED_ARGUMENTS_LENGTH, args.Length);
+            Checker.CheckUserIsLoggedOut();
 
-            var username = AuthenticationService.GetCurrentUser().Username;
+            var loggedInUsername = AuthenticationService.GetCurrentUser().Username;
 
-            this.userService.DeleteUser(username);
+            this.userService.DeleteUser(loggedInUsername);
 
             AuthenticationService.Logout();
 
-            return string.Format(InfoMessages.SuccessfullDelete, username);
+            var message = string.Format(SuccessfullMessages.SUCCESSFULL_DELETE, loggedInUsername);
+
+            return message;
         }
     }
 }

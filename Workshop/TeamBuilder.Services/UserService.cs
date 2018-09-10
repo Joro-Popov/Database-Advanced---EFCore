@@ -64,9 +64,9 @@
                 Name = name,
                 Acronym = acronym,
                 Description = description,
-                CreatorId = creator.Id,
+                CreatorId = creator.Id
             };
-            
+
             this.context.Teams.Add(team);
             this.context.SaveChanges();
 
@@ -81,30 +81,22 @@
             this.context.SaveChanges();
         }
 
-        public void SentInvitation(string teamName, User receiver)
+        public void SendInvitation(string teamName, User invitationReceiver)
         {
             var loggedInUser = AuthenticationService.GetCurrentUser();
             var team = this.context.Teams.FirstOrDefault(t => t.Name == teamName);
 
-            if (receiver.Username == loggedInUser.Username)
+            var userIsCreatorOfTeam = invitationReceiver.Username == loggedInUser.Username;
+
+            if (userIsCreatorOfTeam)
             {
-                var userTeam = new UserTeam
-                {
-                    TeamId = team.Id,
-                    UserId = loggedInUser.Id
-                };
-                this.context.UserTeams.Add(userTeam);
-                this.context.SaveChanges();
-                return;
+                AddUserToTeam(loggedInUser, team);
+            }
+            else
+            {
+                InviteUserToTeam(invitationReceiver, team);
             }
 
-            var Invitation = new Invitation
-            {
-                InvitedUserId = receiver.Id,
-                TeamId = team.Id
-            };
-
-            this.context.Invitations.Add(Invitation);
             this.context.SaveChanges();
         }
 
@@ -129,10 +121,10 @@
 
         public void DeclineInvite(string teamName)
         {
-            var user = AuthenticationService.GetCurrentUser();
+            var loggedInUser = AuthenticationService.GetCurrentUser();
 
             var invitation = this.context.Users
-                .FirstOrDefault(u => u.Id == user.Id)
+                .FirstOrDefault(u => u.Id == loggedInUser.Id)
                 .ReceivedInvitations
                 .FirstOrDefault(i => i.Team.Name == teamName);
 
@@ -156,8 +148,8 @@
         public void Disband(string teamName)
         {
             var team = this.context.Teams.FirstOrDefault(t => t.Name == teamName);
-            this.context.Teams.Remove(team);
 
+            this.context.Teams.Remove(team);
             this.context.SaveChanges();
         }
 
@@ -184,6 +176,26 @@
         public string ShowTeam(string teamName)
         {
             return this.context.Teams.FirstOrDefault(e => e.Name == teamName).ToString();
+        }
+
+        private void AddUserToTeam(User loggedInUser, Team team)
+        {
+            var userTeam = new UserTeam
+            {
+                TeamId = team.Id,
+                UserId = loggedInUser.Id
+            };
+            this.context.UserTeams.Add(userTeam);
+        }
+
+        private void InviteUserToTeam(User invitationReceiver, Team team)
+        {
+            var Invitation = new Invitation
+            {
+                InvitedUserId = invitationReceiver.Id,
+                TeamId = team.Id
+            };
+            this.context.Invitations.Add(Invitation);
         }
     }
 }

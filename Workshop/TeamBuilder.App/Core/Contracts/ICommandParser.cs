@@ -2,6 +2,6 @@
 {
     public interface ICommandParser
     {
-        string ParseCommand(string command);
+        string ParseCommand(string commandDetails);
     }
 }
